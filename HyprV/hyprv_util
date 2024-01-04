@@ -84,8 +84,15 @@ switch_version() {
             notify-send -h string:x-canonical-private-synchronous:sys-notify -u low "switching to HyprV4"
         ;;
 
+        
         v4)
-            #we are on v4 so switch to v1
+            #we are on v4 so switch to v5
+            VERTO="v5-"
+            notify-send -h string:x-canonical-private-synchronous:sys-notify -u low "switching to HyprV5"
+        ;;
+
+        v5)
+            #we are on v5 so switch to v1
             VERTO="v1-"
             notify-send -h string:x-canonical-private-synchronous:sys-notify -u low "switching to HyprV1"
         ;;
