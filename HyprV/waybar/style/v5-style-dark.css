@@ -40,8 +40,8 @@ tooltip * {
 #custom-launch_wofi,
 #custom-power_btn {
     background: rgba(0, 0, 0, 0.4);
-    padding: 0px 10px;
-    margin: 6px 0px;
+    padding: 0px 0.6em;
+    margin: 0.4em 0px;
     margin-top: 2px;
 }
 
@@ -77,24 +77,19 @@ tooltip * {
 /* close to left */
 #custom-power_btn {
     border-radius: 8px 0px 0px 8px;
-}
-
-#custom-power_btn {
-    margin-left: 6px;
-    padding-right: 8px;
+    margin-left: 0.4em;
     border-right: 0px;
 }
 
 #custom-launch_wofi {
-    padding-right: 0px;
     border-right: 0px;
 }
 
 /*close to the right */
 #custom-light_dark{
     border-radius: 0px 8px 8px 0px;
-    margin-right: 6px;
-    padding-right: 4px;
+    margin-right: 0.4em;
+    padding-right: 1em;
 }
 
 #temperature.critical {
