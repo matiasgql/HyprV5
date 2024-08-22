@@ -1,25 +1,15 @@
-* {
-    border: none;
-    border-radius: 0;
-    font-family: "Montserrat", "Font Awesome 6 Free";
-    font-weight: 600;
-    font-size: 16px;
-    min-height: 0;
-}
+@import "../HyprV/waybar/style/v5-style.css";
 
 window#waybar {
-    background: transparent;
     color: #f1f1f1;
 }
 
 tooltip {
     background: rgba(0, 0, 0, 0.4);
-    border-radius: 8px;
 }
 
 tooltip * {
     color: white;
-    text-decoration: none;
 }
 
 #custom-power_profile,
@@ -40,30 +30,6 @@ tooltip * {
 #custom-launch_wofi,
 #custom-power_btn {
     background: rgba(0, 0, 0, 0.4);
-    padding: 0px 0.6em;
-    margin: 0.4em 0px;
-    margin-top: 2px;
-}
-
-#tray, #backlight {
-    padding: 0px;
-}
-
-#custom-power_btn {
-    font-family: "Font Awesome 1 Free";
-}
-
-#taskbar {
-    padding-left: 0px;
-    padding-right: 0px;
-    margin-left: 8px;
-    margin-right: 8px;
-    border-radius: 8px;
-}
-
-#taskbar button {
-    border-radius: 8px;
-    background: transparent;
 }
 
 #taskbar button:hover {
@@ -74,63 +40,11 @@ tooltip * {
     background: rgba(255, 255, 255, 0.15);
 }
 
-/* close to left */
-#custom-power_btn {
-    border-radius: 8px 0px 0px 8px;
-    margin-left: 0.4em;
-    border-right: 0px;
-}
-
-#custom-launch_wofi {
-    border-right: 0px;
-}
-
-/*close to the right */
-#custom-light_dark{
-    border-radius: 0px 8px 8px 0px;
-    margin-right: 0.4em;
-    padding-right: 1em;
-}
-
 #temperature.critical {
     color: #eba0ac;
 }
 
 #custom-power_profile {
     color: #a6e3a1;
-    border-left: 0px;
-    border-right: 0px;
-}
-
-#window {
-    border-radius: 8px;
-    margin-left: 30px;
-    margin-right: 30px;
-}
-
-#clock {
-    padding-top: 2px;
-    border-radius: 8px;
-}
-
-#network {
-    border-radius: 8px 0px 0px 8px;
-    border-left: 0px;
-    border-right: 0px;
-}
-
-#pulseaudio {
-    border-left: 0px;
-    border-right: 0px;
-}
-
-#battery {
-    border-left: 0px;
-}
-
-#custom-weather {
-    padding-top: 2px;
-    border-radius: 0px 8px 8px 0px;
-    border-right: 0px;
 }
 
