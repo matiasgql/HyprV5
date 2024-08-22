@@ -24,8 +24,7 @@ window {
 }
 
 #inner-box {
-    margin: 4px;
-    border: 10px solid transparent;
+    margin: 4px 10px;
     color: #1e1e2e;
     font-weight: bold;
     background: transparent;
@@ -43,6 +42,10 @@ window {
     border: none;
     border-radius: 15px;
     margin-bottom: 5px;
+}
+
+#img {
+    margin-right: 0.6em;
 }
 
 #img:selected {
