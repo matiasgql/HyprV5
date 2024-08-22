@@ -53,7 +53,6 @@ install_stage=(
     thunar 
     btop
     firefox
-    thunderbird
     mpv
     pamixer 
     pavucontrol 
