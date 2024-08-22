@@ -10,7 +10,6 @@
 window#waybar {
     background: transparent;
     color: #111111;
-    
 }
 
 tooltip {
@@ -46,7 +45,7 @@ tooltip * {
     margin-top: 2px;
 }
 
-#tray, #backlight {
+#backlight {
     padding: 0px;
 }
 
@@ -84,6 +83,7 @@ tooltip * {
 
 #custom-launch_wofi {
     border-right: 0px;
+    padding-right: 0px;
 }
 
 /*close to the right */
@@ -112,6 +112,7 @@ tooltip * {
 #clock {
     padding-top: 2px;
     border-radius: 8px;
+    margin-right: 0.4em;
 }
 
 #network {
