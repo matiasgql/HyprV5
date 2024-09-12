@@ -279,7 +279,7 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
 
     # Setup each appliaction
     # check for existing config folders and backup 
-    for DIR in hypr kitty mako swaylock waybar wlogout wofi 
+    for DIR in hypr mako swaylock waybar wlogout wofi 
     do 
         DIRPATH=~/.config/$DIR
         if [ -d "$DIRPATH" ]; then 
@@ -295,7 +295,6 @@ if [[ $CFG == "Y" || $CFG == "y" ]]; then
     # link up the config files
     echo -e "$CNT - Setting up the new config..." 
     cp ~/.config/HyprV/hypr/* ~/.config/hypr/
-    ln -sf ~/.config/HyprV/kitty/kitty.conf ~/.config/kitty/kitty.conf
     ln -sf ~/.config/HyprV/mako/conf/config-dark ~/.config/mako/config
     ln -sf ~/.config/HyprV/swaylock/config ~/.config/swaylock/config
     ln -sf ~/.config/HyprV/waybar/conf/v5-config.jsonc ~/.config/waybar/config.jsonc
