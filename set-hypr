@@ -39,7 +39,7 @@ nvidia_stage=(
 
 #the main packages
 install_stage=(
-    kitty 
+    warp 
     mako 
     waybar
     swww 
