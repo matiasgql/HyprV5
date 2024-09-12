@@ -25,8 +25,9 @@
     ],
 
     "clock": {
+	// Change this timezone with yours to get the right time displayed.
 	"timezone": "America/Argentina/Ushuaia",
-	"format": "{:%a %d/%m %R}",
+	"format": "{:L%a %d de %b %R}",
 	"tooltip-format": "<tt><small>{calendar}</small></tt>",
 	"calendar": {
 		"mode"          : "month",
