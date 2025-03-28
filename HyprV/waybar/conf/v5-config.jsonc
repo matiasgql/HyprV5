@@ -133,6 +133,7 @@
         "format": " {status}",
         "format-disabled": "",
         "format-connected":" {num_connections}",
+	"format-no-controller": "",
         "tooltip-format": "{device_alias}",
         "tooltip-format-connected": " {device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}",
