@@ -57,7 +57,7 @@
     },
 
     "custom/launch_wofi": {
-        "format": "",
+        "format": "󰍉",
         "on-click": "sh -c '(wofi)' & disown",
         "tooltip": false
     },
@@ -91,7 +91,7 @@
     "pulseaudio": {
         "format": "{icon}",
         "tooltip": false,
-        "format-muted": "",
+        "format-muted": "󰖁",
         "on-click": "~/.config/HyprV/waybar/scripts/volume --toggle",
         "on-click-right": "pavucontrol",
         "on-scroll-up": "~/.config/HyprV/waybar/scripts/volume --inc",
@@ -104,14 +104,14 @@
             "phone": "",
             "portable": "",
             "car": "",
-            "default": ["", "", ""]
+            "default": ["󰕿", "󰖀", "󰕾"]
         }
     },
 
     "pulseaudio#microphone": {
         "format": "{format_source}",
-        "format-source": "",
-        "format-source-muted": "",
+        "format-source": "󰍬",
+        "format-source-muted": "󰍭",
         "on-click": "~/.config/HyprV/waybar/scripts/volume --toggle-mic",
         "on-click-right": "pavucontrol",
         "on-scroll-up": "~/.config/HyprV/waybar/scripts/volume --mic-inc",
@@ -130,9 +130,9 @@
     },
 
     "bluetooth": {
-        "format": " {status}",
+        "format": "󰂯",
         "format-disabled": "",
-        "format-connected":" {num_connections}",
+        "format-connected":"󰂯",
 	"format-no-controller": "",
         "tooltip-format": "{device_alias}",
         "tooltip-format-connected": " {device_enumerate}",
