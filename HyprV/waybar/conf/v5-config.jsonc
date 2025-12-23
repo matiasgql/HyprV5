@@ -122,7 +122,7 @@
     "network": {
         // "interface": "wlp2*", // (Optional) To force the use of this interface
         "format-wifi": "",
-        "format-ethernet": "",
+        "format-ethernet": "󰈀",
         "tooltip-format": "false",
         "format-linked": "{ifname} (No IP)",
         "format-disconnected": "Desconectado ⚠",
